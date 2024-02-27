@@ -38,7 +38,7 @@ export default function Intro() {
     "From which I've learned to blend aesthetics with functionality,",
     "The creative and curious side",
     "inside me has since transitioned into",
-    "building the pefect UI",
+    "building the perfect UIs",
     "and robust backends.",
   ];
 
