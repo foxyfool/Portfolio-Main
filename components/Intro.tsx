@@ -52,7 +52,7 @@ export default function Intro() {
     "side in me has since",
     "transitioned into",
     "building the best",
-    "pefect UIs and",
+    "perfect UIs and",
     "robust backends.",
   ];
 
