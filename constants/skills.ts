@@ -17,7 +17,7 @@ export const skills: Record<string, string[]> = {
     "RestAPI",
     "GraphQL",
   ],
-  languages: [ "C++","Javascript",
+  languages: [ "C++/Java","Javascript",
   "TypeScript"],
   DataBases: [ "MongoDB",
   "SQL","PostgresSQL" ],
