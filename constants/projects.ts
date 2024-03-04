@@ -1,11 +1,10 @@
 import Ecom_cover from "@/public/Ecom_cover.png";
 import Ecom_screenshot from "@/public/Ecom_screenshot.png";
 import Ecom_screenshot_2 from "@/public/Ecom_screenshot_2.png";
-import rahul_jumps_cover from "@/public/rahul_jumps_cover.png";
-import rahul_jumps_screenshot from "@/public/rahul_jumps_screenshot.png";
 import shop_cover from "@/public/shop_cover.png";
 import shop_screenshot from "@/public/shop_scrrenshot.png";
-
+import Identity from "@/public/id2.png"
+import Identity1 from "@/public/id5.png"
 
 export const projects = [
   {
@@ -25,31 +24,54 @@ export const projects = [
     ],
     skills: {
       Backend: ["Express JS", "Javascript", "NodeJS", "MongoDB"],
-      Frontend: ["React JS", "Material UI", "React-Redux", "CSS", "Nivo-Charts"],
+      Frontend: [
+        "React JS",
+        "Material UI",
+        "React-Redux",
+        "CSS",
+        "Nivo-Charts",
+      ],
       Others: ["REST API"],
     },
-    liveLink: "",
+    liveLink: "https://admin-frontend-00wo.onrender.com",
     codeLink: "https://github.com/foxyfool/Fullstack-Admin",
   },
   {
-    id: "rahul_jumps",
-    title: "Rahul JUMPS",
-    metadata: ["Gaming"],
-    cover_image: rahul_jumps_cover,
-    screenshots: [rahul_jumps_screenshot],
-    url: "/projects/rahul_jumps",
-    description: "A Plain Platformer Game For Fun.",
+    id: "Identity",
+    title: "Identity",
+    metadata: ["Security"],
+    cover_image: Identity1,
+    screenshots: [Identity],
+    url: "/projects/Identity",
+    description: "An Authentication Service",
     features: [
-      "Plain HTML, CSS and JS.",
-      "Amazing sprite animations.",
+      "Next-auth v5 (Auth.js)",
+      "Next.js 14 with server actions",
+      "OAuth Provider (Social login with Google & GitHub)",
+      "Forgot password functionality",
+      "Email verification",
+      "Two factor verification",
+      "User roles (Admin & User)",
+      "Change email with new verification in Settings page",
+      " Change password with old password confirmation in Settings page",
+      "Enable/disable two-factor auth in Settings page",
     ],
     problem:
-      "Challenged myself to make a platformer game without using any game engine, any frameworks or html canvas. Just plain html, css and javascript.",
+      "Deployment issues with vercel that would work fine on a localhost as currently there are issues authV5(Beta) / Handling Multiple Routes, Generating token based authentication storing and retrieving and deleting them using server actions in a mixed srtup of server and client components mangaing scalable file folder structure with private and default routes etc...",
     solution:
-      "Achieved this by using html divs for the character sprite and the shooting blast. For the running and jumping of the sprite, css animations were used. Shooting blast divs were randomly generated at random intervals of time and appended to the document. Then calculated if the character and the blast intersects (which means the character dies) by using the getBoundingClientRect method, which returns a DOMRect object providing information about the size of an element and its position relative to the viewport.",
-    skills: { Frontend: ["HTML", "CSS", "Javascript"] },
-    liveLink: "",
-    codeLink: "https://github.com/foxyfool/jumpingJack",
+      "I implemented multiple routes in a mixed server-client setup, employing token-based authentication for security. Utilizing server actions, tokens were generated, stored, retrieved, and deleted. A scalable file folder structure managed private and default routes. TypeScript errors and lack of a dns server for the Email Service hindered full deployment.",
+    skills: {
+      Frontend: [
+        "NextJS 14",
+        "React JS",
+        "Prisma ORM/PostGres SQL",
+        "Acternity UI",
+        "Server Actions",
+        "ZOD",
+      ],
+    },
+    liveLink: "https://identity-foxyfool.vercel.app",
+    codeLink: "https://github.com/foxyfool/Identity-",
   },
   {
     id: "Eshop",
@@ -57,7 +79,8 @@ export const projects = [
     url: "/projects/Eshop",
     cover_image: shop_cover,
     screenshots: [shop_screenshot],
-    description: "This project is a simple e-commerce application built using React and Redux, focusing on managing a shopping cart and displaying products.",
+    description:
+      "This project is a simple e-commerce application built using React and Redux, focusing on managing a shopping cart and displaying products.",
     metadata: ["Shopping"],
     features: [
       "Browse Shopping Items",
@@ -65,7 +88,7 @@ export const projects = [
       "Display and view cart-items and total amount of the items",
     ],
     skills: {
-      Frontend: ["React-Redux", "Tailwind-CSS","JS",]
+      Frontend: ["React-Redux", "Tailwind-CSS", "JS"],
     },
     liveLink: "",
     codeLink: "https://github.com/foxyfool/Shop-ReactRedux",

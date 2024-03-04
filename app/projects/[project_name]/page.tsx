@@ -67,6 +67,9 @@ export default function ProjectPage({ params }: PageProps) {
           <Link href={project.codeLink} target="_blank">
             <Button type="white">View Code</Button>
           </Link>
+          <Link href={project.liveLink} target="_blank">
+            <Button type="white">View Link</Button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col gap-8">
