@@ -70,7 +70,7 @@ export const projects = [
         "ZOD",
       ],
     },
-    liveLink: "https://auth-next-js-git-main-foxyfool.vercel.app",
+    liveLink: "https://identity-foxyfool.vercel.app",
     codeLink: "https://github.com/foxyfool/Identity-",
   },
   {
