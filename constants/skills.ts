@@ -8,18 +8,17 @@ export const skills: Record<string, string[]> = {
     "Next.js",
     "ShadCN UI",
     "Framer Motion",
-    "Aceternity UI"
   ],
   backend: [
     "Node.js",
     "Express.js",
-    "NestJS",
+    "AWS",
     "Zod",
     "RestAPI",
     "GraphQL",
     "Prisma ORM"
   ],
-  languages: [ "C++/Java","Javascript",
+  languages: [ "C++","Javascript",
   "TypeScript"],
   DataBases: [ "MongoDB",
   "SQL","PostgresSQL" ],
