@@ -64,7 +64,7 @@ export const projects = [
       "Enable/disable two-factor auth in Settings page",
     ],
     problem:
-      "The email verification functionality currently requires your own Resend API key and setup instructions are provided due to domain verification requirements on Resend / Handling Multiple Routes, Generating token based authentication storing and retrieving and deleting them using server actions in a mixed srtup of server and client components mangaing scalable file folder structure with private and default routes etc...",
+      "The email verification functionality currently requires your own Resend API key and setup instructions are provided due to domain verification requirements on Resend / Handling Multiple Routes, Generating token based authentication storing and retrieving and deleting them using server actions in a mixed setup of server and client components mangaing scalable file folder structure with private and default routes etc...",
     solution:
       "I implemented multiple routes in a mixed server-client setup, employing token-based authentication for security. Utilizing server actions, tokens were generated, stored, retrieved, and deleted. A scalable file folder structure managed private and default routes.",
     skills: {
