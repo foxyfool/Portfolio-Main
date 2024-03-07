@@ -85,7 +85,7 @@ export const projects = [
     title: "WhiteBoard Connect",
     url: "/projects/WhiteBoard-Connect",
     cover_image: wb3,
-    screenshots: [wb2, wb1, wb4],
+    screenshots: [wb2, wb1],
     description:
       "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing",
     metadata: ["Utility"],
