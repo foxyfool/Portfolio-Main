@@ -16,8 +16,6 @@ export const skills: Record<string, string[]> = {
     "Zod",
     "RestAPI",
     "Prisma ORM",
-    "Selenium",
-    "J Unit",
   ],
   languages: [ "C++","Java","Javascript",
   "TypeScript"],
