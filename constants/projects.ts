@@ -7,40 +7,41 @@ import Identity from "@/public/id1.png";
 import Identity1 from "@/public/id2.png";
 import Identity3 from "@/public/id3.png";
 import Identity4 from "@/public/id4.png";
-import wb3 from "@/public/wb3.png"
-import wb4 from "@/public/wn4.png"
-import rahulJm from  "@/public/rahuljmPs0.png"
+import wb3 from "@/public/wb3.png";
+import rahulJm from "@/public/rahuljmPs0.png";
 import rahulJm1 from "@/public/rahuljmPs1.png";
+import ab1 from "@/public/ab1.png";
+import ab2 from "@/public/ab2.png";
+import ab3 from "@/public/ab3.png";
+import ab4 from "@/public/ab4.png";
 
 export const projects = [
   {
-    id: "Ecom-Vision",
-    title: "Ecom-Vision",
-    metadata: ["Utility"],
-    cover_image: Ecom_cover,
-    screenshots: [Ecom_screenshot, Ecom_screenshot_2],
-    description: "A Sales Dash-board with a sleek design and intuitive UX.",
-    url: "/projects/Ecom-Vision",
+    id: "LearnSwift",
+    title: "Learn Swift",
+    metadata: ["Education"],
+    cover_image: ab2,
+    screenshots: [ab1, ab3, ab4],
+    description: "An Edtech platform for learning Languages and Programming",
+    url: "/projects/LearnSwift",
     features: [
-      "View Sales dash-board with an amazing UI and smooth UX",
-      "Create and manage sales insights",
-      "Acces users geographically on the fly",
-      "View details of products/ratings/stocks etc...",
-      "Download generated data reports ",
+      "User Registration & Login - Seamlessly access the platform.",
+      " Student & Instructor Roles - Tailored experiences for different users.",
+      " Course Purchases - Students can easily enroll in their desired courses.",
+      "RazorPay Integration - Smooth payment processing for hassle-free transactions.",
+      " Course Management - Instructors can effortlessly create and edit course content.",
+      " Dashboard Analytics - In-depth stats for instructors to track their progress.",
+      " Progress Tracking - Students can monitor their course progression.",
+      " Profile Customization - Users can personalize their profiles with profile pictures.",
+      " Course Reviews - Share feedback and reviews for an interactive learning environment.",
     ],
     skills: {
       Backend: ["Express JS", "Javascript", "NodeJS", "MongoDB"],
-      Frontend: [
-        "React JS",
-        "Material UI",
-        "React-Redux",
-        "CSS",
-        "Nivo-Charts",
-      ],
+      Frontend: ["React JS", "Tailwind CSS", "React-Redux", "Video React"],
       Others: ["REST API"],
     },
-    liveLink: "https://admin-frontend-00wo.onrender.com",
-    codeLink: "https://github.com/foxyfool/Fullstack-Admin",
+    liveLink: "https://learn-swift.vercel.app",
+    codeLink: "https://github.com/foxyfool/Learn-Swift-",
   },
   {
     id: "Identity",

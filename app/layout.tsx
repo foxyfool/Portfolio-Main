@@ -1,8 +1,10 @@
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import PageScrollProgress from "@/components/ui/PageScrollProgress";
 import CustomCursor from "@/components/ui/CustomCursor";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +43,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+              <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-J3RK13KRTH"></Script>
+<Script id="google-analytics">
+  {
+    `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-J3RK13KRTH');
+    `
+  }
+
+</Script>
+          
+        </head>
       <body className={`${inter.className}`}>
+
         <CustomCursor />
         <PageScrollProgress />
         {children}

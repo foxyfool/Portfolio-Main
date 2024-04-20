@@ -1,12 +1,32 @@
 import { ExperienceType } from "@/@types/experience.type";
 import stm from "@/public/stm.png";
 import mit from "@/public/mit.png";
+import uu from "@/public/uu.png";
 
 export const yearsOfExperience =
   (new Date().getTime() - new Date("2019-02-01").getTime()) /
   (1000 * 60 * 60 * 24 * 365);
 
 export const experiences: ExperienceType[] = [
+  {
+    company: "Ubiquiti Inc.",
+    companyLink: "https://in.store.ui.com/in/en",
+    companyLogo: uu,
+    roles: [
+      {
+        role: "Full Stack Developer Intern",
+        from: {
+          month: "March",
+          year: 2023,
+        },
+        to: {
+          month: "February",
+          year: 2024,
+        },
+        type: "Internship",
+      },
+    ],
+  },
   {
     company: "Master's Of Computer Applications",
     companyLink: "https://www.manipal.edu/mit.html",
@@ -45,5 +65,4 @@ export const experiences: ExperienceType[] = [
       },
     ],
   },
-
 ];
