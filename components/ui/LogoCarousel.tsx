@@ -35,7 +35,7 @@ export default function LogoCarousel({
       )}
     >
       <p className="w-full text-center text-xs sm:text-sm font-medium uppercase text-gray">
-        {Math.round(yearsOfExperience)} + Years Of Learning & 1 Year Of Experience.
+         {Math.round(yearsOfExperience)} + Years Of Learning Curve and 1 yr of internship experience.
       </p>
       <div className="relative flex flex-row gap-8 w-max m-auto overflow-hidden logo_slider_container">
         <div className="flex flex-row justify-center items-center w-max m-auto flex-shrink-0 logo_slider">
