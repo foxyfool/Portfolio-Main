@@ -1,4 +1,5 @@
 export const skills: Record<string, string[]> = {
+  languages: ["C++", "Java", "Javascript", "TypeScript"],
   frontend: [
     "HTML",
     "CSS",
@@ -6,21 +7,24 @@ export const skills: Record<string, string[]> = {
     "React.js",
     "Redux & Recoil",
     "Next.js",
-    "ShadCN UI",
     "Framer Motion",
+    "Jest & Vi-test.",
   ],
   backend: [
-    "Node.js",
-    "Express.js",
-    "Nest.js",
-
-    "Zod",
-    "RestAPI",
-    "GraphQL",
+    "Node & Express JS",
+    "Nest JS",
+    "REST & RPC’s(G/T)",
     "Prisma ORM",
-    "AWS EC2, S3, ,CloudFront,Lambda ",
-    "Cloudflare",
+    "Web-rtc/sockets",
   ],
-  languages: ["C++", "Javascript", "TypeScript"],
-  DataBases: ["MongoDB", "SQL", "PostgresSQL", "Redis"],
+  DevOps: ["AWS S3, EC2, LAMBDA" , "Docker" , "OpenAPI" , "Git CI/CD"],
+  DataBases: ["MongoDB", "SQL", "Redis"],
+  Networking: [
+    "LAN/WAN & TCP/IP ",
+    "DHCP",
+    "DNS",
+    "Wireless ",
+    "Reverse Proxies",
+    "VPN's",
+  ],
 };
