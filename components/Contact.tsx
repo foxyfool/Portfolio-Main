@@ -2,7 +2,7 @@ import Heading from "./ui/Heading";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { RevealingTextContainer, RevealingTextItem } from "./ui/RevealingText";
-import { Calendar, Mail } from "lucide-react";
+import { Calendar, Mail, CircleCheckBig } from "lucide-react";
 import { ButtonWithIcon } from "./ui/Buttons";
 import Link from "next/link";
 
@@ -66,9 +66,13 @@ export default function Contact() {
           >
             <ButtonWithIcon icon={Calendar}>Schedule a meeting</ButtonWithIcon>
           </Link>
-          <a href="mailto:rahulkumarmaity9@gmail.com" className="flex-grow">
-            <ButtonWithIcon icon={Mail}>
-              rahulkumarmaity9@gmail.com
+          <a
+            href="http://www.fiverr.com/s/ZmBDeg8"
+            className="flex-grow"
+            target="blank"
+          >
+            <ButtonWithIcon icon={CircleCheckBig}>
+              Get Your Project Done
             </ButtonWithIcon>
           </a>
         </div>
