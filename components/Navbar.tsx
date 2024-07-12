@@ -11,7 +11,7 @@ import resume_link from "@/constants/resume";
 
 const navSections = [
   "About",
-  "Education",
+  "Experience",
   "Projects",
   "Skills",
   "Hobbies",

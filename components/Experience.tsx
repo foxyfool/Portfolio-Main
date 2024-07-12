@@ -121,10 +121,10 @@ export default function Experience() {
     <motion.section
       style={{ opacity: sectionOpacity }}
       ref={sectionRef}
-      id="education"
+      id="experience"
       className="select-none sm:mx-[15%] my-[3rem] py-[6rem]"
     >
-      <Heading className="mx-[10%] sm:mx-[0%]">EDUCATION</Heading>
+      <Heading className="mx-[10%] sm:mx-[0%]">Experience</Heading>
       <div className="flex flex-col mt-24 items-start justify-center">
         <motion.div
           variants={{
