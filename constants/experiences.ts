@@ -8,6 +8,10 @@ export const yearsOfExperience =
   (new Date().getTime() - new Date("2023-03-01").getTime()) /
   (1000 * 60 * 60 * 24 * 365);
 
+const now = new Date(); // Current date
+const currentYear = now.getFullYear(); // Current year
+const currentMonth = now.toLocaleString("default", { month: "long" }); // Current month as name
+
 export const experiences: ExperienceType[] = [
   {
     company: "Magically Genius ",
@@ -21,10 +25,10 @@ export const experiences: ExperienceType[] = [
           year: 2024,
         },
         to: {
-          month: "present",
-          year: 2024,
+          month: currentMonth,
+          year: currentYear,
         },
-        type: "Internship",
+        type: "Full Time",
       },
     ],
   },
