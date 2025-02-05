@@ -34,7 +34,7 @@ export const experiences: ExperienceType[] = [
     ],
   },
   {
-    company: "Magically Genius ",
+    company: "Magically Genius",
     companyLink: "https://magicallygenius.com/",
     companyLogo: mg,
     roles: [
